@@ -1,0 +1,32 @@
+.bar{
+    float: right;
+}
+hr{
+    margin-top: 0;
+    border: 0.5px solid #28a745;
+}
+.form-control:focus {
+    border-color: #28a745;
+    box-shadow: inset 0px 0px 1px #28a745, 0px 0px 7px #28a745 ;
+}
+label{
+    color: #28a745;
+}
+.footer {
+    color: rgb(148, 148, 148);
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    font-size: 11px;
+}
+.drp{
+    border-color: #28a745;
+    box-shadow: inset 0px 0px 1px #28a745, 0px 0px 7px #28a745 ; 
+}
+.dropa{
+    color: #28a745;
+}
+.dropa:hover{
+    color: #28a745;
+    background-color: white;
+}
