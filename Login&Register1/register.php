@@ -12,7 +12,7 @@ if( isset($_POST['register']) ) {
     $u->password_repeat = $_POST['password_repeat'];
     if( $u->insert() ) {
       Helper::addMessage("Account created successfully!");
-      header("Location: ./login.php");
+      header("Location: ./index.php");
       die();
     }
   }
