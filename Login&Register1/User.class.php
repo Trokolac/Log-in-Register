@@ -64,7 +64,7 @@ class User {
           VALUES
             (:name, :email, :password)
         ");
-        return $stmt_insert->execute([
+        $success = $stmt_insert->execute([
           ':name' => $this->name,
           ':email' => $this->email,
           ':password' => md5($this->password)
